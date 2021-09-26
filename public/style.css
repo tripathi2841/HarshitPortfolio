@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    font-family:  'Ubuntu', sans-serif;
+
+}
+
+#div1{
+    top: 0px;
+    position: sticky;
+}
+
+.home-section{
+    background: url("./pic1.jpeg") no-repeat center;
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+
+.img1 img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+  
+}
+
+.img2 img{
+    
+    width: 30px;
+    height: 30px;
+   
+   
+}
+.img4 img{
+    
+    width: 30px;
+    height: 30px;
+   
+   
+}
+.img5 img{
+    
+    width: 30px;
+    height: 30px;
+   
+   
+}
+.img3 img{
+    
+    width: 30px;
+    height: 30px;
+   
+}
+.home-content{
+    color: white;
+
+}
+
+.about-section{
+    background: url(./logo1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.head1{
+    text-align: center;
+   font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 50px;
+    
+    
+}
+.animated-text:after{
+    content :'';
+    animation: change_text 5s infinite linear;
+    color: crimson;
+       
+}
+@keyframes change_text{
+    0%{
+        content: "Web developer";
+    }
+    35%{
+        content: "Data-Scientist";
+    }
+    50%{
+        content: "Competative Coder";
+    }
+    100%{
+        content: "Machine Learning";
+    }
+}
+.para{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+    color: darkred;
+}
+.about-content
+{
+    width: 390px;
+    height: 500px;
+   
+    margin: 40px 140px;
+}
+.about-content p{
+   
+    font-size: 2.3rem;
+    /* font-family: 'Carattere', cursive; */
+    font-family: 'Caramel', cursive;
+}
+.span1{
+    /* font-family: 'Carattere', cursive; */
+    font-family: 'Caramel', cursive;
+    color: crimson;
+}
+/* Skill Section */
+.skill-section{
+   height: 130vh;
+}
+.head2{
+    text-align: center;
+    font-weight: bold;
+
+}
+.divv1{
+    width: 950px;
+    height: 200px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: all 1.5s ease-in-out; */
+    margin: 40px 0px;
+}
+/* .divv1:hover{
+    width: 450px;
+    height: 250px;
+} */
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.head3{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+    /* width: 300px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+     */
+     padding: 15px 0px;
+}
+.head4{
+    width: 125px;
+    height: 40px;
+    border: 1px solid brown;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+   text-align: center;
+   margin-top: 50px;
+   margin-right: 13px;
+  
+   
+
+}
+.head5{
+    width: 148px;
+    height: 100px;
+    border: 1px solid brown;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+   text-align: center;
+   margin-top: 50px;
+   margin-right: 13px;
+  
+   
+
+}
+
+
+
+.skills{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    
+}
+#number{
+    font-size: 0.8rem;
+    
+}
+circle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+  
+}
+#skill1 svg circle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1s 2s linear forwards;
+  
+}
+@keyframes anim1s{
+    100%{
+        stroke-dashoffset: 200;
+    }
+}
+#skill2 svg circle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+  
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 265;
+    }
+}
+
+#skill5 svg circle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim5 2s linear forwards;
+  
+}
+@keyframes anim5{
+    100%{
+        stroke-dashoffset: 265;
+    }
+}
+#skill6 svg circle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim6 2s linear forwards;
+  
+}
+@keyframes anim6{
+    100%{
+        stroke-dashoffset: 120;
+    }
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165;
+    }
+}
+.program-lang{
+    display: flex;
+    
+    
+}
+.lang-container{
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+/* project-section */
+.head8{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+}
+.project-section{
+    height: 55vh;
+    background-color:grey;
+} 
+.project-div{
+    height: 280px;
+    width: 280px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    transition: all 4s ease-in-out;
+    transition-duration: 2s;
+}
+.project-div p{
+    padding: 14px 18px;
+    font-weight: bold;
+    /* color: grey; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.about-proj{
+    display: flex;
+    justify-content: space-around;
+}
+.link1 a:link{
+    text-decoration: none;
+    
+    text-align: center;
+    font-weight: bold;
+}
+.link1 a{
+    color:crimson;
+}
+
+.link2{
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+}
+
+/* contact us section */
+.head9{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+}
+
+.contact-section{
+    background: url(./logo_10.jpeg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family:  'Baloo Bhai', cursive;
+    color : coral;
+ 
+ }
+ 
+ #contact-box
+ {
+ 
+     width : 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ 
+     padding-bottom: 34px;
+    margin-left : 100px;
+ 
+ }
+ #contact-box input, 
+ #contact-box textarea{
+     width: 100%;
+    padding-left : 0.6rem;
+    padding-right: 6rem;
+    padding-top : 0.5rem;
+    padding-bottom: 0.5rem;
+     border-radius: 9px;
+     font-size: 0.8rem;
+ }
+
+ .btn
+{
+	font-size: 1.5rem;
+	background-color: coral;
+	color : white;
+	text-align: center;
+	align-items: center;
+	width : 100%;
+	margin-top: 20px;
+	font-family:  'Baloo Bhai', cursive;
+	border-style: none;
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    background-color: rgb(22, 22, 22);
+}
+.foot{
+    color: white;
+   text-align: center;
+}

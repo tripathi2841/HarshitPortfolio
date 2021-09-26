@@ -1,0 +1,71 @@
+#div1{
+    top: 0px;
+    position:relative;
+}
+.about-content
+{
+    width: 240px;
+    height: 780px;
+   
+    margin: 0px 10px;
+}
+.about-content p{
+   
+    font-size: 1.8rem;
+    /* font-family: 'Carattere', cursive; */
+    font-family: 'Caramel', cursive;
+}
+.divv1{
+     width: 340px;
+    height: 600px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: all 1.5s ease-in-out;
+    margin: 40px 0px;
+}
+
+.skill-section{
+    height: 300vh;
+ }
+ .lang-container{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+.skills{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    
+}
+.head2{
+    text-align: center;
+    font-weight: bold;
+   margin-top: 50px;
+}
+.head8{
+    text-align: center;
+    font-weight: bold;
+   margin-top: 0px;
+}
+.about-proj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.project-section{
+    height: 150vh;
+    background-color:grey;
+}
+.project-div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+#contact-box{
+    margin-left: 30px;
+}

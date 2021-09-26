@@ -1,0 +1,13 @@
+.skill-section{
+    height: 320vh;
+ }
+ .project-section{
+    height: 160vh;
+    background-color:grey;
+}
+ .contact-section{
+    background: url(./logo_10.jpeg) no-repeat center center/cover;
+    height: 110vh;
+    width: 100%;
+    
+}
