@@ -10,10 +10,16 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect('mongodb://localhost:27017/mydb',{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+// mongoose.connect('mongodb://localhost:27017/mydb',{
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// });
+mongoose.connect("mongodb+srv://Harshittripathi:Harshit@2841@main.hwlhz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{useCreateIndex:true,useFindAndModify:false,useNewUrlParser:true,useUnifiedTopology:true})
+.then(()=>{
+    console.log("connection is succesful");
+}).catch((err)=>{
+    console.log("Not connected");
+})
 
 var db = mongoose.connection;
 
